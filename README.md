@@ -1,13 +1,13 @@
 # ⚔️ Battle Multiplayer Game (SolidJS + Socket.IO)
 
-Game pertarungan real-time 1v1 berbasis web menggunakan **SolidJS** di sisi client dan **Express + Socket.IO** di sisi server.
+A real-time 1v1 battle game built with **SolidJS** on the client side and **Express + Socket.IO** on the server side.
 
 ---
 
-## 🛠️ Cara Install
+## 🛠️ Installation Guide
 
-### 1. Clone atau Extract ZIP
-Download dan extract file ZIP ke folder lokal kamu, misalnya:
+### 1. Clone or Extract ZIP
+Download and extract the ZIP file to your local folder, for example:
 
 ```bash
 unzip battle-multiplayer.zip
@@ -16,7 +16,7 @@ cd battle-multiplayer
 
 ---
 
-### 2. Install Dependency
+### 2. Install Dependencies
 
 #### 🔹 Server (port 3000)
 ```bash
@@ -34,44 +34,44 @@ npm run dev
 
 ---
 
-## 🎮 Cara Bermain
+## 🎮 How to Play
 
-1. **Jalankan server** terlebih dahulu di terminal:
+1. **Start the server** first in a terminal:
    ```bash
    cd server
    npm start
    ```
 
-2. **Jalankan client** di tab terminal lain:
+2. **Start the client** in another terminal tab:
    ```bash
    cd client
    npm run dev
    ```
 
-3. **Buka browser** di dua tab atau dua perangkat:
+3. **Open your browser** in two tabs or on two devices:
    ```
    http://localhost:5173
    ```
 
-4. Setiap pemain akan otomatis masuk ke game room.
+4. Each player will automatically join a game room.
 
 5. **Gameplay:**
-   - Pemain pertama yang masuk akan memulai giliran.
-   - Klik tombol **Attack** untuk menyerang lawan.
-   - Damage yang diberikan acak (antara 5–25).
-   - Pemain yang HP-nya habis terlebih dahulu kalah.
+   - The first player to join will take the first turn.
+   - Click the **Attack** button to strike the opponent.
+   - Damage is random (between 5–25).
+   - The player whose HP reaches zero first loses.
 
 ---
 
-## 📦 Teknologi Digunakan
+## 📦 Tech Stack
 - SolidJS + Vite (Client)
 - Express + Socket.IO (Server)
-- Tailwind CSS (untuk styling sederhana)
+- Tailwind CSS (for simple styling)
 - Typescript + JSX
 
 ---
 
-## 📌 Catatan
-- Pastikan **port 3000 (server)** dan **5173 (client)** tidak bentrok.
-- Kamu bisa deploy server di **Render / Railway** dan client di **Vercel / Netlify**.
-- Bisa dimainkan dengan mengakses dari dua browser atau perangkat berbeda.
+## 📌 Notes
+- Make sure **port 3000 (server)** and **5173 (client)** are not in use.
+- You can deploy the server to **Render / Railway** and the client to **Vercel / Netlify**.
+- Playable from two browser tabs or two different devices.
