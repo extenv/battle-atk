@@ -10,8 +10,8 @@ A real-time 1v1 battle game built with **SolidJS** on the client side and **Expr
 Download and extract the ZIP file to your local folder, for example:
 
 ```bash
-unzip battle-multiplayer.zip
-cd battle-multiplayer
+unzip battle-atk.zip
+cd battle-atk
 ```
 
 ---
